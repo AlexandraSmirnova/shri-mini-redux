@@ -1,0 +1,14 @@
+{
+  "name": "shri-mini-redux",
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "module": "es/index.js",
+  "license": "MIT",
+  "scripts": {
+    "clean": "rimraf lib es",
+    "build": "yarn clean && rollup -c"
+  },
+  "devDependencies": {
+    "rollup": "^1.21.4"
+  }
+}
